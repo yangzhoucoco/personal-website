@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Yang Zhou"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: Resume-Yang Zhou.pdf
+        text: CV
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
